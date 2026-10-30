@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "title": "Felipe Tajima | Full-Stack Developer",
+    "description": "Portfolio of Felipe Tajima, Full-Stack Developer."
+  },
+  "hero": {
+    "greeting": "Hello, welcome.",
+    "portraitAlt": "Felipe Tajima smiling on a rocky coastline.",
+    "downloadResume": "Download CV (PT-BR)",
+    "projectsHint": "My projects",
+    "particles": { "pause": "Pause particles", "resume": "Resume particles" }
+  },
+  "navigation": {
+    "label": "Main navigation",
+    "home": "Home",
+    "skip": "Skip to introduction",
+    "menu": "Open navigation"
+  },
+  "language": "Language",
+  "projects": {
+    "title": "My projects",
+    "navigation": "Projects",
+    "description": "Projects I've worked on and the technologies used in each one.",
+    "previous": "Previous projects",
+    "next": "Next projects",
+    "position": "Showing {current}–{last} of {total}",
+    "instructions": "Use the left and right arrows to navigate or scroll horizontally.",
+    "list": "Horizontally scrollable project list",
+    "technologies": "Project technologies",
+    "inDevelopment": "In development",
+    "repository": "GitHub",
+    "demo": "Live demo",
+    "newTab": "opens in a new tab"
+  },
+  "about": {
+    "title": "About me",
+    "portraitAlt": "Felipe Tajima in a forest, looking to the side.",
+    "technologies": "Technologies"
+  },
+  "services": {
+    "title": "Services",
+    "navigation": "Services",
+    "description": "I develop websites and web applications, and make adjustments and improvements to existing projects."
+  },
+  "contact": {
+    "title": "Let's talk",
+    "navigation": "Contact",
+    "description": "Have a job opportunity or a project you'd like to discuss?",
+    "newTab": "opens in a new tab",
+    "channels": { "linkedin": "LinkedIn", "github": "GitHub", "email": "Email", "instagram": "Instagram", "whatsapp": "WhatsApp" }
+  },
+  "footer": {
+    "backToTop": "Back to top"
+  },
+  "theme": {
+    "toLight": "Switch to light theme",
+    "toDark": "Switch to dark theme"
+  }
+}

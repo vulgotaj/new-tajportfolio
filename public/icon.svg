@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 158 158"><title>TAJ</title><rect width="158" height="158" rx="24" fill="#fff"/><svg x="0" y="57" width="158" height="44" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 158 44" fill="none" role="img" aria-label="TAJ — Felipe Tajima">
+  <title>TAJ — Felipe Tajima</title>
+  <g stroke="#000000" stroke-width="3.6" stroke-linecap="butt" stroke-linejoin="round">
+    <path id="syntax-open" d="M27 16.5 17 21.5 27 26.5"/>
+    <g id="taj-letters">
+      <path id="letter-t" d="M35 8H55M45 8V36.8"/>
+      <path id="letter-a" d="M58 35 68.6 9.5Q69.2 8 70.8 8H76V36.8M58 35H70"/>
+      <path id="letter-j" d="M96 8H103V31Q103 35 99 35H89Q87 35 87 33V27"/>
+    </g>
+    <path id="syntax-slash" d="M123 7 114 36"/>
+    <path id="syntax-close" d="M131 16.5 141 21.5 131 26.5"/>
+  </g>
+</svg>
+</svg>

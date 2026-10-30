@@ -1,0 +1,16 @@
+{
+  "dark": {
+    "particles": 209,
+    "minimumSecondaryTextContrast": 5.406744735594134,
+    "fill": "#FFFFFF",
+    "opacityMin": 0.11764705882352941,
+    "opacityMax": 0.2196078431372549
+  },
+  "light": {
+    "particles": 209,
+    "minimumSecondaryTextContrast": 4.75285803802668,
+    "fill": "#000000",
+    "opacityMin": 0.0784313725490196,
+    "opacityMax": 0.10980392156862745
+  }
+}

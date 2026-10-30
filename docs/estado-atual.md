@@ -2,6 +2,12 @@
 
 Atualizado em 2026-10-30 com os cinco projetos, o download do currículo e a preparação de pré-produção. Este é o ponto de entrada para retomar o trabalho sem depender do histórico do chat. Os detalhes continuam nos documentos vinculados; este resumo não substitui o [contrato operacional](../AGENTS.md), a [arquitetura](architecture.md) ou os [ADRs](adr/README.md). A [próxima retomada](#próxima-retomada) resume o estado aprovado; a [retomada anterior](#retomada-em-outro-chat) foi preservada como histórico.
 
+## Espaçamento das ações dos projetos — atualização de 2026-10-30
+
+Em celular/tablet, os links GitHub/demonstração passaram a seguir as tecnologias com 24 px de espaço, sem a margem automática que os empurrava até a base do item mais alto. No celular, esse vazio chegava a 244 px. A partir de 1200 px, o alinhamento anterior pela base foi preservado.
+
+Tipos, lint, conteúdo, build, 11 testes Node e os 19 cenários Chromium de projetos passaram. A geometria dos cinco itens foi conferida em PT/EN × claro/escuro × 360/768/1440 px, com inspeção das capturas; as distâncias ficaram em 24 px abaixo de 1200 px e iguais à base anterior no desktop. Os cenários existentes cobrem teclado, foco, toque e movimento reduzido. A suíte completa e outros navegadores não foram repetidos nesse ajuste de CSS.
+
 ## Documentação e higiene do repositório — atualização de 2026-10-30
 
 O README foi reorganizado para apresentação no GitHub, com funcionalidades, stack, execução, scripts, manutenção de conteúdo e fluxo de deploy. Seus 21 links locais foram conferidos. A revisão dos arquivos rastreados identificou `next-env.d.ts`, gerado pelo Next.js: removido somente do índice e incluído no `.gitignore`, junto de `.vercel/`. Dependências, builds, resultados de testes, arquivos `.env` e cache do TypeScript já estavam ignorados. Estudos de design e mídias referenciadas pela documentação foram preservados.

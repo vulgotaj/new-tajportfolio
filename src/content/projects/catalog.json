@@ -1,0 +1,224 @@
+{
+  "sourceThread": {
+    "id": "01a17574-9570-7051-a11b-b549be260bdd",
+    "title": "Definir conteúdo de projetos"
+  },
+  "purpose": "Catálogo de publicação; contribuição completa nos três primeiros confirmada pelo proprietário em 2026-10-26. Em 2026-10-30, confirmou autoria integral no pizzaUP e desenvolvimento do BarberHub com um amigo, atuando no frontend, backend e integrações.",
+  "projects": [
+    {
+      "id": "devcontrole",
+      "title": "DevControle",
+      "order": 1,
+      "image": "/projects/devcontrole.png",
+      "category": {
+        "pt": "Aplicação web · Gestão de chamados",
+        "en": "Web application · Support ticket management"
+      },
+      "description": {
+        "pt": "Aplicação para cadastrar clientes e gerenciar chamados de suporte em um painel com login. Permite registrar solicitações e acompanhar os chamados abertos.",
+        "en": "A web application for registering customers and managing support tickets in a dashboard that requires login. Users can submit requests and track open tickets."
+      },
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "NextAuth",
+        "Prisma",
+        "MongoDB"
+      ],
+      "imageAlt": {
+        "pt": "Notebook exibindo a página inicial do DevControle em uma mesa com iluminação azul.",
+        "en": "Laptop displaying the DevControle homepage on a desk with blue lighting."
+      },
+      "repository": "https://github.com/vulgotaj/DevControle",
+      "demo": "https://dev-control-wheat.vercel.app/",
+      "demoStatus": "verified",
+      "personalContribution": {
+        "pt": "Desenvolvi a aplicação completa.",
+        "en": "I developed the complete application."
+      },
+      "published": true,
+      "featured": false,
+      "problem": {
+        "pt": "Centralizar o cadastro de clientes e o acompanhamento de chamados de suporte.",
+        "en": "Centralize customer records and support ticket tracking."
+      },
+      "solution": {
+        "pt": "Um painel autenticado para cadastrar clientes, registrar solicitações e consultar chamados abertos.",
+        "en": "An authenticated dashboard for registering customers, submitting requests, and viewing open tickets."
+      }
+    },
+    {
+      "id": "fast-motors",
+      "title": "Fast Motors",
+      "order": 2,
+      "image": "/projects/fast-motors.png",
+      "category": {
+        "pt": "Site institucional · Serviços automotivos",
+        "en": "Business website · Automotive services"
+      },
+      "description": {
+        "pt": "Site de uma oficina automotiva, com informações sobre a empresa, seus serviços e formas de contato. O conteúdo vem de uma API e pode ser atualizado sem alterar os componentes da interface.",
+        "en": "A website for an automotive repair shop, with information about the business, its services, and ways to get in touch. Content comes from an API and can be updated without changing the interface components."
+      },
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Sass"
+      ],
+      "imageAlt": {
+        "pt": "Notebook exibindo o site Fast Motors em uma mesa com iluminação azul e uma miniatura de carro.",
+        "en": "Laptop displaying the Fast Motors website on a desk with blue lighting and a model car."
+      },
+      "repository": "https://github.com/vulgotaj/fastmotors",
+      "demo": "https://fastmotors.vercel.app/",
+      "demoStatus": "verified",
+      "personalContribution": {
+        "pt": "Desenvolvi a aplicação completa.",
+        "en": "I developed the complete application."
+      },
+      "published": true,
+      "featured": false,
+      "problem": {
+        "pt": "Apresentar a oficina e seus serviços e facilitar o acesso ao atendimento.",
+        "en": "Present the repair shop and its services and make contact options easy to find."
+      },
+      "solution": {
+        "pt": "Um site com informações da empresa e serviços carregadas por uma API.",
+        "en": "A website with business and service information loaded through an API."
+      }
+    },
+    {
+      "id": "today-movies",
+      "title": "Today Movies",
+      "order": 3,
+      "image": "/projects/today-movies.png",
+      "category": {
+        "pt": "Aplicação web · Catálogo de filmes",
+        "en": "Web application · Movie catalog"
+      },
+      "description": {
+        "pt": "Catálogo de filmes em cartaz com sinopses, avaliações e detalhes de cada título, consultados pela API do TMDB. Permite salvar favoritos no navegador e buscar trailers no YouTube.",
+        "en": "A catalog of movies now playing, with plot summaries, ratings, and movie details from the TMDB API. Users can save favorites in their browser and search for trailers on YouTube."
+      },
+      "technologies": [
+        "React",
+        "JavaScript",
+        "React Router",
+        "Axios"
+      ],
+      "imageAlt": {
+        "pt": "Notebook exibindo o catálogo do Today Movies em uma mesa com pipoca e iluminação azul.",
+        "en": "Laptop displaying the Today Movies catalog on a desk with popcorn and blue lighting."
+      },
+      "repository": "https://github.com/vulgotaj/today-movies",
+      "demo": "https://today-movies.vercel.app/",
+      "demoStatus": "verified",
+      "personalContribution": {
+        "pt": "Desenvolvi a aplicação completa.",
+        "en": "I developed the complete application."
+      },
+      "published": true,
+      "featured": false,
+      "problem": {
+        "pt": "Reunir a consulta a filmes em cartaz e suas informações em uma interface.",
+        "en": "Bring current movie listings and movie information together in one interface."
+      },
+      "solution": {
+        "pt": "Um catálogo integrado ao TMDB com detalhes, favoritos no navegador e busca de trailers no YouTube.",
+        "en": "A TMDB-powered catalog with movie details, browser favorites, and YouTube trailer searches."
+      }
+    },
+    {
+      "id": "pizzaup",
+      "title": "pizzaUP",
+      "order": 4,
+      "image": "/projects/pizzaup.png",
+      "category": {
+        "pt": "Aplicação full stack · Gestão de pizzaria",
+        "en": "Full-stack application · Pizzeria management"
+      },
+      "description": {
+        "pt": "Sistema para gerenciar o cardápio e os pedidos de uma pizzaria. No painel administrativo, é possível cadastrar produtos com imagens, organizar categorias e acompanhar pedidos. O painel se conecta a uma API com autenticação e controle de acesso por perfil.",
+        "en": "A system for managing a pizzeria's menu and orders. The admin dashboard lets users add products with images, organize categories, and track orders. It connects to an API with authentication and role-based access control."
+      },
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "Node.js",
+        "Express",
+        "Prisma",
+        "PostgreSQL",
+        "Cloudinary"
+      ],
+      "imageAlt": {
+        "pt": "Notebook exibindo o painel de produtos do pizzaUP, com fotos de pizzas em uma interface escura.",
+        "en": "Laptop displaying the pizzaUP product dashboard, with pizza photos in a dark interface."
+      },
+      "repository": "https://github.com/vulgotaj/pizzaUP",
+      "demoStatus": "unverified",
+      "developmentStatus": "in-development",
+      "personalContribution": {
+        "pt": "Projeto de minha autoria integral.",
+        "en": "This project is entirely my own work."
+      },
+      "published": true,
+      "featured": false,
+      "problem": {
+        "pt": "Organizar o cardápio e o acompanhamento de pedidos de uma pizzaria.",
+        "en": "Organize a pizzeria’s menu and order tracking."
+      },
+      "solution": {
+        "pt": "Um painel administrativo integrado a uma API para gerenciar produtos, categorias e pedidos.",
+        "en": "An admin dashboard connected to an API for managing products, categories, and orders."
+      }
+    },
+    {
+      "id": "barberhub",
+      "title": "BarberHub",
+      "order": 5,
+      "image": "/projects/barberhub.png",
+      "category": {
+        "pt": "Plataforma SaaS · Gestão de barbearias",
+        "en": "SaaS platform · Barbershop management"
+      },
+      "description": {
+        "pt": "Plataforma em desenvolvimento para organizar o dia a dia de barbearias e facilitar o agendamento online. A interface tem fluxos demonstrativos para clientes, barbeiros e administradores, com catálogo de estabelecimentos, agenda e painéis de gestão.",
+        "en": "A platform in development to help barbershops manage their day-to-day work and offer online booking. The interface has demo flows for customers, barbers, and administrators, with a barbershop directory, scheduling, and management dashboards."
+      },
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "PostgreSQL"
+      ],
+      "imageAlt": {
+        "pt": "Notebook exibindo o painel demonstrativo do BarberHub, com indicadores de gestão e agenda de atendimentos em uma interface escura.",
+        "en": "Laptop displaying the BarberHub demo dashboard, with management metrics and an appointment schedule in a dark interface."
+      },
+      "repository": "https://github.com/T-J-Labs/barberhub",
+      "demoStatus": "unverified",
+      "developmentStatus": "in-development",
+      "personalContribution": {
+        "pt": "Desenvolvo o projeto com um amigo, atuando no frontend, backend e integrações.",
+        "en": "I am developing the project with a friend, working on the frontend, backend, and integrations."
+      },
+      "published": true,
+      "featured": false,
+      "problem": {
+        "pt": "Organizar a rotina das barbearias e facilitar o acesso ao agendamento online.",
+        "en": "Organize barbershop operations and make online booking easier to access."
+      },
+      "solution": {
+        "pt": "Interfaces demonstrativas para clientes, barbeiros e administradores, com catálogo, agenda e painéis de gestão.",
+        "en": "Demo interfaces for customers, barbers, and administrators, with a directory, scheduling, and management dashboards."
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "sourceThread": {
+    "id": "01a17574-9570-7051-a11b-b549be260bdd",
+    "title": "Definir conteúdo de projetos"
+  },
+  "purpose": "Conteúdo editorial para os mockups; o formato de publicação da aplicação será definido na fundação.",
+  "projects": [
+    {
+      "id": "devcontrole",
+      "title": "DevControle",
+      "order": 1,
+      "image": "projects/devcontrole.png",
+      "category": {
+        "pt": "Aplicação web · Gestão de chamados",
+        "en": "Web application · Support ticket management"
+      },
+      "description": {
+        "pt": "Uma aplicação para centralizar clientes e chamados de suporte. Permite cadastrar clientes, registrar solicitações e consultar os atendimentos abertos em um painel com acesso autenticado.",
+        "en": "A web application for managing customers and support tickets in one place. Users can register customers, submit requests, and view open tickets through an authenticated dashboard."
+      },
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "NextAuth",
+        "Prisma",
+        "MongoDB"
+      ],
+      "imageAlt": {
+        "pt": "Notebook exibindo a página inicial do DevControle em uma mesa com iluminação azul.",
+        "en": "Laptop displaying the DevControle homepage on a desk with blue lighting."
+      },
+      "repository": "https://github.com/vulgotaj/DevControle",
+      "demo": "https://dev-control-wheat.vercel.app/",
+      "demoStatus": "unverified",
+      "personalContribution": null
+    },
+    {
+      "id": "fast-motors",
+      "title": "Fast Motors",
+      "order": 2,
+      "image": "projects/fast-motors.png",
+      "category": {
+        "pt": "Site institucional · Serviços automotivos",
+        "en": "Business website · Automotive services"
+      },
+      "description": {
+        "pt": "Site para uma oficina automotiva, com apresentação da empresa, serviços e acesso ao atendimento. O conteúdo é carregado por uma API, permitindo atualizar as informações sem alterar os componentes da interface.",
+        "en": "A website for an automotive repair shop, presenting the business, its services, and contact options. Content is loaded through an API, allowing information to be updated without changing the interface components."
+      },
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Sass"
+      ],
+      "imageAlt": {
+        "pt": "Notebook exibindo o site Fast Motors em uma mesa com iluminação azul e uma miniatura de carro.",
+        "en": "Laptop displaying the Fast Motors website on a desk with blue lighting and a model car."
+      },
+      "repository": "https://github.com/vulgotaj/fastmotors",
+      "demo": "https://fastmotors.vercel.app/",
+      "demoStatus": "unverified",
+      "personalContribution": null
+    },
+    {
+      "id": "today-movies",
+      "title": "Today Movies",
+      "order": 3,
+      "image": "projects/today-movies.png",
+      "category": {
+        "pt": "Aplicação web · Catálogo de filmes",
+        "en": "Web application · Movie catalog"
+      },
+      "description": {
+        "pt": "Aplicação para explorar filmes em cartaz, consultar sinopses, avaliações e informações de cada título. Integrada à API do TMDB, permite salvar favoritos no navegador e buscar trailers no YouTube.",
+        "en": "A web application for exploring movies now playing, with plot summaries, ratings, and movie details. Integrated with the TMDB API, it lets users save favorites in their browser and search for trailers on YouTube."
+      },
+      "technologies": [
+        "React",
+        "JavaScript",
+        "React Router",
+        "Axios"
+      ],
+      "imageAlt": {
+        "pt": "Notebook exibindo o catálogo do Today Movies em uma mesa com pipoca e iluminação azul.",
+        "en": "Laptop displaying the Today Movies catalog on a desk with popcorn and blue lighting."
+      },
+      "repository": "https://github.com/vulgotaj/today-movies",
+      "demo": "https://today-movies.vercel.app/",
+      "demoStatus": "unverified",
+      "personalContribution": null
+    }
+  ]
+}

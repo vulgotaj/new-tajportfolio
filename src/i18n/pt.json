@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "title": "Felipe Tajima | Desenvolvedor Full-Stack",
+    "description": "Portfólio de Felipe Tajima, desenvolvedor Full-Stack."
+  },
+  "hero": {
+    "greeting": "Olá, seja bem-vindo.",
+    "portraitAlt": "Felipe Tajima sorrindo em um costão rochoso.",
+    "downloadResume": "Baixar CV",
+    "projectsHint": "Meus projetos",
+    "particles": { "pause": "Pausar partículas", "resume": "Retomar partículas" }
+  },
+  "navigation": {
+    "label": "Navegação principal",
+    "home": "Início",
+    "skip": "Pular para a apresentação",
+    "menu": "Abrir navegação"
+  },
+  "language": "Idioma",
+  "projects": {
+    "title": "Meus projetos",
+    "navigation": "Projetos",
+    "description": "Projetos em que trabalhei e as tecnologias usadas em cada um.",
+    "previous": "Projetos anteriores",
+    "next": "Próximos projetos",
+    "position": "Exibindo {current}–{last} de {total}",
+    "instructions": "Use as setas esquerda e direita para navegar ou role horizontalmente.",
+    "list": "Lista de projetos com rolagem horizontal",
+    "technologies": "Tecnologias do projeto",
+    "inDevelopment": "Em desenvolvimento",
+    "repository": "GitHub",
+    "demo": "Ver projeto",
+    "newTab": "abre em nova aba"
+  },
+  "about": {
+    "title": "Sobre mim",
+    "portraitAlt": "Felipe Tajima em uma floresta, olhando para o lado.",
+    "technologies": "Tecnologias"
+  },
+  "services": {
+    "title": "Serviços",
+    "navigation": "Serviços",
+    "description": "Desenvolvo sites e sistemas web e cuido de ajustes e melhorias em projetos existentes."
+  },
+  "contact": {
+    "title": "Vamos conversar?",
+    "navigation": "Contato",
+    "description": "Tem uma oportunidade de trabalho ou quer conversar sobre um projeto?",
+    "newTab": "abre em nova aba",
+    "channels": { "linkedin": "LinkedIn", "github": "GitHub", "email": "E-mail", "instagram": "Instagram", "whatsapp": "WhatsApp" }
+  },
+  "footer": {
+    "backToTop": "Voltar ao início"
+  },
+  "theme": {
+    "toLight": "Ativar tema claro",
+    "toDark": "Ativar tema escuro"
+  }
+}

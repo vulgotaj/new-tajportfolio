@@ -1,0 +1,1464 @@
+{
+  "renderer": "Local Chromium via Edge / Playwright; editorial mockups, no application implementation",
+  "sourcePhotosUnchanged": true,
+  "sourceHashes": [
+    "dc310440358895aab0962df063c52967c64bff259e0fb2708fa16672f3155ea6",
+    "600715d55529261c92a907635cbdb16264dd58e7b515fefb22acc265db04a685"
+  ],
+  "projectMediaUnchanged": true,
+  "projectMediaHashes": [
+    "a08e3fd8dc3335249eb43ed0bdf8b91753b436fc1531e87000c9810da3a68c19",
+    "27ed4a3fd577b19d2fdb583823f5afd84ef934dd6061b105210ee68b51741132",
+    "31af1d1bd0ca3884e4066bc33706bb03793d2a19cf28881bee9a106b842498d7"
+  ],
+  "variants": [
+    {
+      "name": "dark-1440-pt",
+      "pageWidth": 1440,
+      "viewport": 1440,
+      "photos": [
+        {
+          "x": 920.796875,
+          "y": 228.578125,
+          "width": 411.1875,
+          "height": 451.84375
+        },
+        {
+          "x": 843.296875,
+          "y": 2128.984375,
+          "width": 488.6875,
+          "height": 469.890625
+        }
+      ],
+      "h1Lines": 0.9999332264957266,
+      "heroHeight": 900,
+      "photoTreatment": {
+        "hoverCapable": true,
+        "defaultFilters": [
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)"
+        ],
+        "reducedTransitions": [
+          "0s",
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ],
+        "focusablePhotos": 0,
+        "interactions": [
+          {
+            "selector": ".hero-photo",
+            "filter": "grayscale(0)"
+          },
+          {
+            "selector": ".about-photo",
+            "filter": "grayscale(0)"
+          },
+          {
+            "selector": ".project[data-project=\"devcontrole\"] .preview",
+            "filter": "grayscale(0)"
+          },
+          {
+            "selector": ".project[data-project=\"fast-motors\"] .preview",
+            "filter": "grayscale(0)"
+          },
+          {
+            "selector": ".project[data-project=\"today-movies\"] .preview",
+            "filter": "grayscale(0)"
+          }
+        ],
+        "normalTransitions": [
+          "0.35s",
+          "0.35s",
+          "0.35s",
+          "0.35s",
+          "0.35s"
+        ]
+      },
+      "monochrome": {
+        "accent": "#ffffff",
+        "cue": "rgb(255, 255, 255)",
+        "tag": "rgb(255, 255, 255)",
+        "serviceIcon": "rgb(255, 255, 255)",
+        "socialIcon": "rgb(255, 255, 255)",
+        "chromaticDeclarations": [],
+        "keyboardFocus": {
+          "visible": true,
+          "outline": "rgb(255, 255, 255)"
+        }
+      },
+      "content": {
+        "projectTitles": [
+          "DevControle",
+          "Fast Motors",
+          "Today Movies"
+        ],
+        "serviceTitles": [
+          "Sites institucionais",
+          "Lojas virtuais",
+          "Sistemas e dashboards",
+          "Landing pages",
+          "Redesign e modernização",
+          "Manutenção e evolução"
+        ],
+        "technologies": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "Sass",
+          "Prisma",
+          "MongoDB",
+          "Firebase",
+          "Git"
+        ],
+        "heroAction": {
+          "label": "Ver projetos",
+          "href": "#projects"
+        },
+        "contactDestinations": 0,
+        "contactChannels": 5,
+        "missingImages": 0,
+        "leftoverPlaceholders": false,
+        "resumeAction": false,
+        "serviceOverlap": false,
+        "serviceColumns": 3,
+        "projectImageHeights": [
+          328.9375,
+          328.9375,
+          328.9375
+        ],
+        "projectTitleTops": [
+          1584.296875,
+          1584.296875,
+          1584.296875
+        ]
+      }
+    },
+    {
+      "name": "dark-768-pt",
+      "pageWidth": 768,
+      "viewport": 768,
+      "photos": [
+        {
+          "x": 184,
+          "y": 503.765625,
+          "width": 400,
+          "height": 370
+        },
+        {
+          "x": 134,
+          "y": 2485.5625,
+          "width": 500,
+          "height": 434.78125
+        }
+      ],
+      "h1Lines": 0.9998690212031558,
+      "heroHeight": 1024,
+      "photoTreatment": {
+        "hoverCapable": false,
+        "defaultFilters": [
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)"
+        ],
+        "reducedTransitions": [
+          "0s",
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ],
+        "focusablePhotos": 0,
+        "interactions": [
+          {
+            "selector": ".hero-photo",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".about-photo",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"devcontrole\"] .preview",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"fast-motors\"] .preview",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"today-movies\"] .preview",
+            "filter": "grayscale(1)"
+          }
+        ]
+      },
+      "monochrome": {
+        "accent": "#ffffff",
+        "cue": "rgb(255, 255, 255)",
+        "tag": "rgb(255, 255, 255)",
+        "serviceIcon": "rgb(255, 255, 255)",
+        "socialIcon": "rgb(255, 255, 255)",
+        "chromaticDeclarations": []
+      },
+      "content": {
+        "projectTitles": [
+          "DevControle",
+          "Fast Motors",
+          "Today Movies"
+        ],
+        "serviceTitles": [
+          "Sites institucionais",
+          "Lojas virtuais",
+          "Sistemas e dashboards",
+          "Landing pages",
+          "Redesign e modernização",
+          "Manutenção e evolução"
+        ],
+        "technologies": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "Sass",
+          "Prisma",
+          "MongoDB",
+          "Firebase",
+          "Git"
+        ],
+        "heroAction": {
+          "label": "Ver projetos",
+          "href": "#projects"
+        },
+        "contactDestinations": 0,
+        "contactChannels": 5,
+        "missingImages": 0,
+        "leftoverPlaceholders": false,
+        "resumeAction": false,
+        "serviceOverlap": false,
+        "serviceColumns": 2,
+        "projectImageHeights": [
+          285.59375,
+          285.59375,
+          285.59375
+        ],
+        "projectTitleTops": [
+          673.015625,
+          673.015625,
+          673.015625
+        ]
+      }
+    },
+    {
+      "name": "dark-360-pt",
+      "pageWidth": 360,
+      "viewport": 360,
+      "photos": [
+        {
+          "x": 44,
+          "y": 443.140625,
+          "width": 272,
+          "height": 280
+        },
+        {
+          "x": 40,
+          "y": 2282.65625,
+          "width": 280,
+          "height": 300
+        }
+      ],
+      "h1Lines": 2,
+      "heroHeight": 825.140625,
+      "photoTreatment": {
+        "hoverCapable": false,
+        "defaultFilters": [
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)"
+        ],
+        "reducedTransitions": [
+          "0s",
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ],
+        "focusablePhotos": 0,
+        "interactions": [
+          {
+            "selector": ".hero-photo",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".about-photo",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"devcontrole\"] .preview",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"fast-motors\"] .preview",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"today-movies\"] .preview",
+            "filter": "grayscale(1)"
+          }
+        ]
+      },
+      "monochrome": {
+        "accent": "#ffffff",
+        "cue": "rgb(255, 255, 255)",
+        "tag": "rgb(255, 255, 255)",
+        "serviceIcon": "rgb(255, 255, 255)",
+        "socialIcon": "rgb(255, 255, 255)",
+        "chromaticDeclarations": []
+      },
+      "content": {
+        "projectTitles": [
+          "DevControle",
+          "Fast Motors",
+          "Today Movies"
+        ],
+        "serviceTitles": [
+          "Sites institucionais",
+          "Lojas virtuais",
+          "Sistemas e dashboards",
+          "Landing pages",
+          "Redesign e modernização",
+          "Manutenção e evolução"
+        ],
+        "technologies": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "Sass",
+          "Prisma",
+          "MongoDB",
+          "Firebase",
+          "Git"
+        ],
+        "heroAction": {
+          "label": "Ver projetos",
+          "href": "#projects"
+        },
+        "contactDestinations": 0,
+        "contactChannels": 5,
+        "missingImages": 0,
+        "leftoverPlaceholders": false,
+        "resumeAction": false,
+        "serviceOverlap": false,
+        "serviceColumns": 1,
+        "projectImageHeights": [
+          175.984375,
+          175.984375,
+          175.984375
+        ],
+        "projectTitleTops": [
+          505.578125,
+          505.578125,
+          505.578125
+        ]
+      }
+    },
+    {
+      "name": "light-1440-pt",
+      "pageWidth": 1440,
+      "viewport": 1440,
+      "photos": [
+        {
+          "x": 920.796875,
+          "y": 228.578125,
+          "width": 411.1875,
+          "height": 451.84375
+        },
+        {
+          "x": 843.296875,
+          "y": 2128.984375,
+          "width": 488.6875,
+          "height": 469.890625
+        }
+      ],
+      "h1Lines": 0.9999332264957266,
+      "heroHeight": 900,
+      "photoTreatment": {
+        "hoverCapable": true,
+        "defaultFilters": [
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)"
+        ],
+        "reducedTransitions": [
+          "0s",
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ],
+        "focusablePhotos": 0,
+        "interactions": [
+          {
+            "selector": ".hero-photo",
+            "filter": "grayscale(0)"
+          },
+          {
+            "selector": ".about-photo",
+            "filter": "grayscale(0)"
+          },
+          {
+            "selector": ".project[data-project=\"devcontrole\"] .preview",
+            "filter": "grayscale(0)"
+          },
+          {
+            "selector": ".project[data-project=\"fast-motors\"] .preview",
+            "filter": "grayscale(0)"
+          },
+          {
+            "selector": ".project[data-project=\"today-movies\"] .preview",
+            "filter": "grayscale(0)"
+          }
+        ],
+        "normalTransitions": [
+          "0.35s",
+          "0.35s",
+          "0.35s",
+          "0.35s",
+          "0.35s"
+        ]
+      },
+      "monochrome": {
+        "accent": "#000000",
+        "cue": "rgb(0, 0, 0)",
+        "tag": "rgb(0, 0, 0)",
+        "serviceIcon": "rgb(0, 0, 0)",
+        "socialIcon": "rgb(0, 0, 0)",
+        "chromaticDeclarations": [],
+        "keyboardFocus": {
+          "visible": true,
+          "outline": "rgb(0, 0, 0)"
+        }
+      },
+      "content": {
+        "projectTitles": [
+          "DevControle",
+          "Fast Motors",
+          "Today Movies"
+        ],
+        "serviceTitles": [
+          "Sites institucionais",
+          "Lojas virtuais",
+          "Sistemas e dashboards",
+          "Landing pages",
+          "Redesign e modernização",
+          "Manutenção e evolução"
+        ],
+        "technologies": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "Sass",
+          "Prisma",
+          "MongoDB",
+          "Firebase",
+          "Git"
+        ],
+        "heroAction": {
+          "label": "Ver projetos",
+          "href": "#projects"
+        },
+        "contactDestinations": 0,
+        "contactChannels": 5,
+        "missingImages": 0,
+        "leftoverPlaceholders": false,
+        "resumeAction": false,
+        "serviceOverlap": false,
+        "serviceColumns": 3,
+        "projectImageHeights": [
+          328.9375,
+          328.9375,
+          328.9375
+        ],
+        "projectTitleTops": [
+          1584.296875,
+          1584.296875,
+          1584.296875
+        ]
+      }
+    },
+    {
+      "name": "light-768-pt",
+      "pageWidth": 768,
+      "viewport": 768,
+      "photos": [
+        {
+          "x": 184,
+          "y": 503.765625,
+          "width": 400,
+          "height": 370
+        },
+        {
+          "x": 134,
+          "y": 2485.5625,
+          "width": 500,
+          "height": 434.78125
+        }
+      ],
+      "h1Lines": 0.9998690212031558,
+      "heroHeight": 1024,
+      "photoTreatment": {
+        "hoverCapable": false,
+        "defaultFilters": [
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)"
+        ],
+        "reducedTransitions": [
+          "0s",
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ],
+        "focusablePhotos": 0,
+        "interactions": [
+          {
+            "selector": ".hero-photo",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".about-photo",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"devcontrole\"] .preview",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"fast-motors\"] .preview",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"today-movies\"] .preview",
+            "filter": "grayscale(1)"
+          }
+        ]
+      },
+      "monochrome": {
+        "accent": "#000000",
+        "cue": "rgb(0, 0, 0)",
+        "tag": "rgb(0, 0, 0)",
+        "serviceIcon": "rgb(0, 0, 0)",
+        "socialIcon": "rgb(0, 0, 0)",
+        "chromaticDeclarations": []
+      },
+      "content": {
+        "projectTitles": [
+          "DevControle",
+          "Fast Motors",
+          "Today Movies"
+        ],
+        "serviceTitles": [
+          "Sites institucionais",
+          "Lojas virtuais",
+          "Sistemas e dashboards",
+          "Landing pages",
+          "Redesign e modernização",
+          "Manutenção e evolução"
+        ],
+        "technologies": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "Sass",
+          "Prisma",
+          "MongoDB",
+          "Firebase",
+          "Git"
+        ],
+        "heroAction": {
+          "label": "Ver projetos",
+          "href": "#projects"
+        },
+        "contactDestinations": 0,
+        "contactChannels": 5,
+        "missingImages": 0,
+        "leftoverPlaceholders": false,
+        "resumeAction": false,
+        "serviceOverlap": false,
+        "serviceColumns": 2,
+        "projectImageHeights": [
+          285.59375,
+          285.59375,
+          285.59375
+        ],
+        "projectTitleTops": [
+          673.015625,
+          673.015625,
+          673.015625
+        ]
+      }
+    },
+    {
+      "name": "light-360-pt",
+      "pageWidth": 360,
+      "viewport": 360,
+      "photos": [
+        {
+          "x": 44,
+          "y": 443.140625,
+          "width": 272,
+          "height": 280
+        },
+        {
+          "x": 40,
+          "y": 2282.65625,
+          "width": 280,
+          "height": 300
+        }
+      ],
+      "h1Lines": 2,
+      "heroHeight": 825.140625,
+      "photoTreatment": {
+        "hoverCapable": false,
+        "defaultFilters": [
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)"
+        ],
+        "reducedTransitions": [
+          "0s",
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ],
+        "focusablePhotos": 0,
+        "interactions": [
+          {
+            "selector": ".hero-photo",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".about-photo",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"devcontrole\"] .preview",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"fast-motors\"] .preview",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"today-movies\"] .preview",
+            "filter": "grayscale(1)"
+          }
+        ]
+      },
+      "monochrome": {
+        "accent": "#000000",
+        "cue": "rgb(0, 0, 0)",
+        "tag": "rgb(0, 0, 0)",
+        "serviceIcon": "rgb(0, 0, 0)",
+        "socialIcon": "rgb(0, 0, 0)",
+        "chromaticDeclarations": []
+      },
+      "content": {
+        "projectTitles": [
+          "DevControle",
+          "Fast Motors",
+          "Today Movies"
+        ],
+        "serviceTitles": [
+          "Sites institucionais",
+          "Lojas virtuais",
+          "Sistemas e dashboards",
+          "Landing pages",
+          "Redesign e modernização",
+          "Manutenção e evolução"
+        ],
+        "technologies": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "Sass",
+          "Prisma",
+          "MongoDB",
+          "Firebase",
+          "Git"
+        ],
+        "heroAction": {
+          "label": "Ver projetos",
+          "href": "#projects"
+        },
+        "contactDestinations": 0,
+        "contactChannels": 5,
+        "missingImages": 0,
+        "leftoverPlaceholders": false,
+        "resumeAction": false,
+        "serviceOverlap": false,
+        "serviceColumns": 1,
+        "projectImageHeights": [
+          175.984375,
+          175.984375,
+          175.984375
+        ],
+        "projectTitleTops": [
+          505.578125,
+          505.578125,
+          505.578125
+        ]
+      }
+    },
+    {
+      "name": "dark-1440-en",
+      "pageWidth": 1440,
+      "viewport": 1440,
+      "photos": [
+        {
+          "x": 920.796875,
+          "y": 228.578125,
+          "width": 411.1875,
+          "height": 451.84375
+        },
+        {
+          "x": 843.296875,
+          "y": 2128.984375,
+          "width": 488.6875,
+          "height": 469.890625
+        }
+      ],
+      "h1Lines": 0.9999332264957266,
+      "heroHeight": 900,
+      "photoTreatment": {
+        "hoverCapable": true,
+        "defaultFilters": [
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)"
+        ],
+        "reducedTransitions": [
+          "0s",
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ],
+        "focusablePhotos": 0,
+        "interactions": [
+          {
+            "selector": ".hero-photo",
+            "filter": "grayscale(0)"
+          },
+          {
+            "selector": ".about-photo",
+            "filter": "grayscale(0)"
+          },
+          {
+            "selector": ".project[data-project=\"devcontrole\"] .preview",
+            "filter": "grayscale(0)"
+          },
+          {
+            "selector": ".project[data-project=\"fast-motors\"] .preview",
+            "filter": "grayscale(0)"
+          },
+          {
+            "selector": ".project[data-project=\"today-movies\"] .preview",
+            "filter": "grayscale(0)"
+          }
+        ],
+        "normalTransitions": [
+          "0.35s",
+          "0.35s",
+          "0.35s",
+          "0.35s",
+          "0.35s"
+        ]
+      },
+      "monochrome": {
+        "accent": "#ffffff",
+        "cue": "rgb(255, 255, 255)",
+        "tag": "rgb(255, 255, 255)",
+        "serviceIcon": "rgb(255, 255, 255)",
+        "socialIcon": "rgb(255, 255, 255)",
+        "chromaticDeclarations": [],
+        "keyboardFocus": {
+          "visible": true,
+          "outline": "rgb(255, 255, 255)"
+        }
+      },
+      "content": {
+        "projectTitles": [
+          "DevControle",
+          "Fast Motors",
+          "Today Movies"
+        ],
+        "serviceTitles": [
+          "Business websites",
+          "Online stores",
+          "Web applications and dashboards",
+          "Landing pages",
+          "Website redesign and modernization",
+          "Website maintenance and improvements"
+        ],
+        "technologies": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "Sass",
+          "Prisma",
+          "MongoDB",
+          "Firebase",
+          "Git"
+        ],
+        "heroAction": {
+          "label": "View projects",
+          "href": "#projects"
+        },
+        "contactDestinations": 0,
+        "contactChannels": 5,
+        "missingImages": 0,
+        "leftoverPlaceholders": false,
+        "resumeAction": false,
+        "serviceOverlap": false,
+        "serviceColumns": 3,
+        "projectImageHeights": [
+          328.9375,
+          328.9375,
+          328.9375
+        ],
+        "projectTitleTops": [
+          1584.296875,
+          1584.296875,
+          1584.296875
+        ]
+      }
+    },
+    {
+      "name": "dark-768-en",
+      "pageWidth": 768,
+      "viewport": 768,
+      "photos": [
+        {
+          "x": 184,
+          "y": 503.765625,
+          "width": 400,
+          "height": 370
+        },
+        {
+          "x": 134,
+          "y": 2451.46875,
+          "width": 500,
+          "height": 434.78125
+        }
+      ],
+      "h1Lines": 0.9998690212031558,
+      "heroHeight": 1024,
+      "photoTreatment": {
+        "hoverCapable": false,
+        "defaultFilters": [
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)"
+        ],
+        "reducedTransitions": [
+          "0s",
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ],
+        "focusablePhotos": 0,
+        "interactions": [
+          {
+            "selector": ".hero-photo",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".about-photo",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"devcontrole\"] .preview",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"fast-motors\"] .preview",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"today-movies\"] .preview",
+            "filter": "grayscale(1)"
+          }
+        ]
+      },
+      "monochrome": {
+        "accent": "#ffffff",
+        "cue": "rgb(255, 255, 255)",
+        "tag": "rgb(255, 255, 255)",
+        "serviceIcon": "rgb(255, 255, 255)",
+        "socialIcon": "rgb(255, 255, 255)",
+        "chromaticDeclarations": []
+      },
+      "content": {
+        "projectTitles": [
+          "DevControle",
+          "Fast Motors",
+          "Today Movies"
+        ],
+        "serviceTitles": [
+          "Business websites",
+          "Online stores",
+          "Web applications and dashboards",
+          "Landing pages",
+          "Website redesign and modernization",
+          "Website maintenance and improvements"
+        ],
+        "technologies": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "Sass",
+          "Prisma",
+          "MongoDB",
+          "Firebase",
+          "Git"
+        ],
+        "heroAction": {
+          "label": "View projects",
+          "href": "#projects"
+        },
+        "contactDestinations": 0,
+        "contactChannels": 5,
+        "missingImages": 0,
+        "leftoverPlaceholders": false,
+        "resumeAction": false,
+        "serviceOverlap": false,
+        "serviceColumns": 2,
+        "projectImageHeights": [
+          285.59375,
+          285.59375,
+          285.59375
+        ],
+        "projectTitleTops": [
+          672.921875,
+          672.921875,
+          672.921875
+        ]
+      }
+    },
+    {
+      "name": "dark-360-en",
+      "pageWidth": 360,
+      "viewport": 360,
+      "photos": [
+        {
+          "x": 44,
+          "y": 443.140625,
+          "width": 272,
+          "height": 280
+        },
+        {
+          "x": 40,
+          "y": 2256.3125,
+          "width": 280,
+          "height": 300
+        }
+      ],
+      "h1Lines": 2,
+      "heroHeight": 825.140625,
+      "photoTreatment": {
+        "hoverCapable": false,
+        "defaultFilters": [
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)"
+        ],
+        "reducedTransitions": [
+          "0s",
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ],
+        "focusablePhotos": 0,
+        "interactions": [
+          {
+            "selector": ".hero-photo",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".about-photo",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"devcontrole\"] .preview",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"fast-motors\"] .preview",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"today-movies\"] .preview",
+            "filter": "grayscale(1)"
+          }
+        ]
+      },
+      "monochrome": {
+        "accent": "#ffffff",
+        "cue": "rgb(255, 255, 255)",
+        "tag": "rgb(255, 255, 255)",
+        "serviceIcon": "rgb(255, 255, 255)",
+        "socialIcon": "rgb(255, 255, 255)",
+        "chromaticDeclarations": []
+      },
+      "content": {
+        "projectTitles": [
+          "DevControle",
+          "Fast Motors",
+          "Today Movies"
+        ],
+        "serviceTitles": [
+          "Business websites",
+          "Online stores",
+          "Web applications and dashboards",
+          "Landing pages",
+          "Website redesign and modernization",
+          "Website maintenance and improvements"
+        ],
+        "technologies": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "Sass",
+          "Prisma",
+          "MongoDB",
+          "Firebase",
+          "Git"
+        ],
+        "heroAction": {
+          "label": "View projects",
+          "href": "#projects"
+        },
+        "contactDestinations": 0,
+        "contactChannels": 5,
+        "missingImages": 0,
+        "leftoverPlaceholders": false,
+        "resumeAction": false,
+        "serviceOverlap": false,
+        "serviceColumns": 1,
+        "projectImageHeights": [
+          175.984375,
+          175.984375,
+          175.984375
+        ],
+        "projectTitleTops": [
+          505.578125,
+          505.578125,
+          505.578125
+        ]
+      }
+    },
+    {
+      "name": "light-1440-en",
+      "pageWidth": 1440,
+      "viewport": 1440,
+      "photos": [
+        {
+          "x": 920.796875,
+          "y": 228.578125,
+          "width": 411.1875,
+          "height": 451.84375
+        },
+        {
+          "x": 843.296875,
+          "y": 2128.984375,
+          "width": 488.6875,
+          "height": 469.890625
+        }
+      ],
+      "h1Lines": 0.9999332264957266,
+      "heroHeight": 900,
+      "photoTreatment": {
+        "hoverCapable": true,
+        "defaultFilters": [
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)"
+        ],
+        "reducedTransitions": [
+          "0s",
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ],
+        "focusablePhotos": 0,
+        "interactions": [
+          {
+            "selector": ".hero-photo",
+            "filter": "grayscale(0)"
+          },
+          {
+            "selector": ".about-photo",
+            "filter": "grayscale(0)"
+          },
+          {
+            "selector": ".project[data-project=\"devcontrole\"] .preview",
+            "filter": "grayscale(0)"
+          },
+          {
+            "selector": ".project[data-project=\"fast-motors\"] .preview",
+            "filter": "grayscale(0)"
+          },
+          {
+            "selector": ".project[data-project=\"today-movies\"] .preview",
+            "filter": "grayscale(0)"
+          }
+        ],
+        "normalTransitions": [
+          "0.35s",
+          "0.35s",
+          "0.35s",
+          "0.35s",
+          "0.35s"
+        ]
+      },
+      "monochrome": {
+        "accent": "#000000",
+        "cue": "rgb(0, 0, 0)",
+        "tag": "rgb(0, 0, 0)",
+        "serviceIcon": "rgb(0, 0, 0)",
+        "socialIcon": "rgb(0, 0, 0)",
+        "chromaticDeclarations": [],
+        "keyboardFocus": {
+          "visible": true,
+          "outline": "rgb(0, 0, 0)"
+        }
+      },
+      "content": {
+        "projectTitles": [
+          "DevControle",
+          "Fast Motors",
+          "Today Movies"
+        ],
+        "serviceTitles": [
+          "Business websites",
+          "Online stores",
+          "Web applications and dashboards",
+          "Landing pages",
+          "Website redesign and modernization",
+          "Website maintenance and improvements"
+        ],
+        "technologies": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "Sass",
+          "Prisma",
+          "MongoDB",
+          "Firebase",
+          "Git"
+        ],
+        "heroAction": {
+          "label": "View projects",
+          "href": "#projects"
+        },
+        "contactDestinations": 0,
+        "contactChannels": 5,
+        "missingImages": 0,
+        "leftoverPlaceholders": false,
+        "resumeAction": false,
+        "serviceOverlap": false,
+        "serviceColumns": 3,
+        "projectImageHeights": [
+          328.9375,
+          328.9375,
+          328.9375
+        ],
+        "projectTitleTops": [
+          1584.296875,
+          1584.296875,
+          1584.296875
+        ]
+      }
+    },
+    {
+      "name": "light-768-en",
+      "pageWidth": 768,
+      "viewport": 768,
+      "photos": [
+        {
+          "x": 184,
+          "y": 503.765625,
+          "width": 400,
+          "height": 370
+        },
+        {
+          "x": 134,
+          "y": 2451.46875,
+          "width": 500,
+          "height": 434.78125
+        }
+      ],
+      "h1Lines": 0.9998690212031558,
+      "heroHeight": 1024,
+      "photoTreatment": {
+        "hoverCapable": false,
+        "defaultFilters": [
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)"
+        ],
+        "reducedTransitions": [
+          "0s",
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ],
+        "focusablePhotos": 0,
+        "interactions": [
+          {
+            "selector": ".hero-photo",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".about-photo",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"devcontrole\"] .preview",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"fast-motors\"] .preview",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"today-movies\"] .preview",
+            "filter": "grayscale(1)"
+          }
+        ]
+      },
+      "monochrome": {
+        "accent": "#000000",
+        "cue": "rgb(0, 0, 0)",
+        "tag": "rgb(0, 0, 0)",
+        "serviceIcon": "rgb(0, 0, 0)",
+        "socialIcon": "rgb(0, 0, 0)",
+        "chromaticDeclarations": []
+      },
+      "content": {
+        "projectTitles": [
+          "DevControle",
+          "Fast Motors",
+          "Today Movies"
+        ],
+        "serviceTitles": [
+          "Business websites",
+          "Online stores",
+          "Web applications and dashboards",
+          "Landing pages",
+          "Website redesign and modernization",
+          "Website maintenance and improvements"
+        ],
+        "technologies": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "Sass",
+          "Prisma",
+          "MongoDB",
+          "Firebase",
+          "Git"
+        ],
+        "heroAction": {
+          "label": "View projects",
+          "href": "#projects"
+        },
+        "contactDestinations": 0,
+        "contactChannels": 5,
+        "missingImages": 0,
+        "leftoverPlaceholders": false,
+        "resumeAction": false,
+        "serviceOverlap": false,
+        "serviceColumns": 2,
+        "projectImageHeights": [
+          285.59375,
+          285.59375,
+          285.59375
+        ],
+        "projectTitleTops": [
+          672.921875,
+          672.921875,
+          672.921875
+        ]
+      }
+    },
+    {
+      "name": "light-360-en",
+      "pageWidth": 360,
+      "viewport": 360,
+      "photos": [
+        {
+          "x": 44,
+          "y": 443.140625,
+          "width": 272,
+          "height": 280
+        },
+        {
+          "x": 40,
+          "y": 2256.3125,
+          "width": 280,
+          "height": 300
+        }
+      ],
+      "h1Lines": 2,
+      "heroHeight": 825.140625,
+      "photoTreatment": {
+        "hoverCapable": false,
+        "defaultFilters": [
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)",
+          "grayscale(1)"
+        ],
+        "reducedTransitions": [
+          "0s",
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ],
+        "focusablePhotos": 0,
+        "interactions": [
+          {
+            "selector": ".hero-photo",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".about-photo",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"devcontrole\"] .preview",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"fast-motors\"] .preview",
+            "filter": "grayscale(1)"
+          },
+          {
+            "selector": ".project[data-project=\"today-movies\"] .preview",
+            "filter": "grayscale(1)"
+          }
+        ]
+      },
+      "monochrome": {
+        "accent": "#000000",
+        "cue": "rgb(0, 0, 0)",
+        "tag": "rgb(0, 0, 0)",
+        "serviceIcon": "rgb(0, 0, 0)",
+        "socialIcon": "rgb(0, 0, 0)",
+        "chromaticDeclarations": []
+      },
+      "content": {
+        "projectTitles": [
+          "DevControle",
+          "Fast Motors",
+          "Today Movies"
+        ],
+        "serviceTitles": [
+          "Business websites",
+          "Online stores",
+          "Web applications and dashboards",
+          "Landing pages",
+          "Website redesign and modernization",
+          "Website maintenance and improvements"
+        ],
+        "technologies": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "Sass",
+          "Prisma",
+          "MongoDB",
+          "Firebase",
+          "Git"
+        ],
+        "heroAction": {
+          "label": "View projects",
+          "href": "#projects"
+        },
+        "contactDestinations": 0,
+        "contactChannels": 5,
+        "missingImages": 0,
+        "leftoverPlaceholders": false,
+        "resumeAction": false,
+        "serviceOverlap": false,
+        "serviceColumns": 1,
+        "projectImageHeights": [
+          175.984375,
+          175.984375,
+          175.984375
+        ],
+        "projectTitleTops": [
+          505.578125,
+          505.578125,
+          505.578125
+        ]
+      }
+    }
+  ]
+}

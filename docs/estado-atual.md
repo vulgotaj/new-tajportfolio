@@ -2,6 +2,18 @@
 
 Atualizado em 2026-10-30 com os cinco projetos, o download do currículo e a preparação de pré-produção. Este é o ponto de entrada para retomar o trabalho sem depender do histórico do chat. Os detalhes continuam nos documentos vinculados; este resumo não substitui o [contrato operacional](../AGENTS.md), a [arquitetura](architecture.md) ou os [ADRs](adr/README.md). A [próxima retomada](#próxima-retomada) resume o estado aprovado; a [retomada anterior](#retomada-em-outro-chat) foi preservada como histórico.
 
+## Documentação e higiene do repositório — atualização de 2026-10-30
+
+O README foi reorganizado para apresentação no GitHub, com funcionalidades, stack, execução, scripts, manutenção de conteúdo e fluxo de deploy. Seus 21 links locais foram conferidos. A revisão dos arquivos rastreados identificou `next-env.d.ts`, gerado pelo Next.js: removido somente do índice e incluído no `.gitignore`, junto de `.vercel/`. Dependências, builds, resultados de testes, arquivos `.env` e cache do TypeScript já estavam ignorados. Estudos de design e mídias referenciadas pela documentação foram preservados.
+
+Validação: tipos, lint, 11 testes Node e build com validação de conteúdo passaram. A suíte Chromium executou 172 cenários: 171 passaram na primeira execução; o cenário de abertura PT/claro/768 falhou ao consultar os paths antes da montagem do SVG e passou na repetição isolada com `--last-failed`. Essa instabilidade de sincronização do teste permanece registrada; não houve alteração no teste ou na animação. Outros navegadores e dispositivos físicos não foram verificados nesta revisão.
+
+## Ícone da aba — atualização de 2026-10-30
+
+A pedido do proprietário, o favicon passou da letra T para a logo completa preta. SVG e ICO usam o export aprovado sobre branco para manter contraste na aba escura, sem alterar traçados ou espaçamento. O SVG importado nos metadados recebe hash de conteúdo; o script de marca preserva essa escolha ao regenerar os arquivos. O ícone Apple e as imagens sociais permanecem como estavam.
+
+Validação deste ajuste: tipos, lint, conteúdo, build, 11 testes Node e os três cenários Chromium de publicação passaram. Os HTMLs pré-gerados de PT/EN apontam ao SVG com hash, e os paths foram comparados com o export preto aprovado. O ICO de 32 px foi inspecionado visualmente. A suíte completa e os demais navegadores não foram repetidos nessa alteração restrita ao favicon.
+
 ## Pré-produção — atualização de 2026-10-30
 
 Correções da auditoria autorizadas: origem `https://felipetajima.vercel.app`, metadados absolutos e localizados, favicon/ícone Apple/imagens sociais com a marca aprovada, sitemap/robots, nomes acessíveis de idioma/e-mail, CSP e demais cabeçalhos defensivos. Fotos pessoais usam qualidade 60 e AVIF/WebP, com sizes ajustados e originais intactos. O proprietário confirmou manter a abertura em 2,5 s; não encurtar por causa do resultado de laboratório.

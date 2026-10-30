@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import type { StaticImageData } from "next/image";
+import favicon from "../../../public/icon.svg";
 import localFont from "next/font/local";
 import { notFound } from "next/navigation";
 import { ThemeScript } from "@/components/theme-script";
@@ -9,6 +11,8 @@ import { getDictionary } from "@/i18n/dictionaries";
 import { isLocale, locales } from "@/i18n/locales";
 import { site } from "@/data/site";
 import "../globals.css";
+
+const tabIcon: StaticImageData = favicon;
 
 const jost = localFont({
   src: "../../assets/fonts/jost-latin-wght-normal.woff2",
@@ -44,7 +48,7 @@ export async function generateMetadata({ params }: Pick<Props, "params">): Promi
     },
     twitter: { card: "summary_large_image", ...copy, images: [`/og/${lang}.png`] },
     icons: {
-      icon: [{ url: "/favicon.ico", sizes: "16x16 32x32" }, { url: "/icon.svg", type: "image/svg+xml" }],
+      icon: [{ url: "/favicon.ico", sizes: "16x16 32x32" }, { url: tabIcon.src, type: "image/svg+xml", sizes: "any" }],
       apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
     },
   };

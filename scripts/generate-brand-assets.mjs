@@ -5,12 +5,14 @@ import { profile } from "../src/data/profile.ts";
 
 const root = new URL("../", import.meta.url);
 const master = await readFile(new URL("public/brand/taj-wordmark.svg", root), "utf8");
+const blackMaster = await readFile(new URL("public/brand/taj-wordmark-light.svg", root), "utf8");
 const font = await readFile(new URL("src/assets/fonts/jost-latin-wght-normal.woff2", root));
 const letter = master.match(/<path id="letter-t" d="([^"]+)"/)?.[1];
 if (!letter) throw new Error("O SVG mestre não contém a letra T aprovada.");
 const escape = (text) => text.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll('"', "&quot;");
-// Reuse the original T path without redrawing the brand; the full mark remains in OG images.
-const icon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><title>TAJ</title><style>rect{fill:#fff}g{stroke:#000}@media(prefers-color-scheme:dark){rect{fill:#000}g{stroke:#fff}}</style><rect width="48" height="48" rx="10"/><g transform="translate(-21 1.6)" fill="none" stroke-width="3.6" stroke-linecap="butt" stroke-linejoin="round"><path d="${letter}"/></g></svg>`;
+// Keep the full black export intact on white so it remains visible on dark browser tabs.
+const icon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 158 158"><title>TAJ</title><rect width="158" height="158" rx="24" fill="#fff"/>${blackMaster.replace("<svg ", '<svg x="0" y="57" width="158" height="44" ')}</svg>`;
+const touchIcon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><title>TAJ</title><style>rect{fill:#fff}g{stroke:#000}@media(prefers-color-scheme:dark){rect{fill:#000}g{stroke:#fff}}</style><rect width="48" height="48" rx="10"/><g transform="translate(-21 1.6)" fill="none" stroke-width="3.6" stroke-linecap="butt" stroke-linejoin="round"><path d="${letter}"/></g></svg>`;
 await writeFile(new URL("public/icon.svg", root), icon);
 await mkdir(new URL("public/og/", root), { recursive: true });
 const browser = await chromium.launch();
@@ -30,7 +32,7 @@ try {
   const frames = [];
   for (const size of [16, 32, 180]) {
     await page.setViewportSize({ width: size, height: size });
-    await page.setContent(`<html><body style="margin:0">${icon}</body></html>`);
+    await page.setContent(`<html><body style="margin:0">${size === 180 ? touchIcon : icon}</body></html>`);
     const png = await page.screenshot();
     if (size === 180) await writeFile(new URL("public/apple-touch-icon.png", root), png);
     else frames.push({ size, png });

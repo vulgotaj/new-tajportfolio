@@ -266,7 +266,7 @@ body {
 .project-description { @apply mt-4 text-base leading-relaxed text-muted; }
 .project-technologies { @apply my-6 flex flex-wrap gap-2; }
 .project-technologies li { @apply rounded-full border border-accent px-3 py-2 text-xs; }
-.project-links { @apply mt-auto flex flex-wrap gap-3; }
+.project-links { @apply flex flex-wrap gap-3; }
 .project-links a { @apply inline-flex min-h-11 max-w-full items-center justify-center gap-2 rounded-full border border-accent px-4 py-2 text-sm font-medium; }
 .project-links svg { @apply shrink-0; }
 .project-links .project-demo { @apply bg-accent text-on-accent; }
@@ -438,6 +438,7 @@ body {
   .section-title { font-size: 3.5rem; }
   .section-description { font-size: 1.25rem; }
   .project-title { font-size: 2rem; }
+  .project-links { margin-top: auto; }
   .project-track[data-count="2"] { --project-width: calc((100% - var(--project-gap)) / 2); }
   .about-layout {
     grid-template-areas: "biography portrait" "technologies portrait";

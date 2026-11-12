@@ -2,7 +2,11 @@
 
 Registro de 2026-10-30, consolidado a pedido do proprietário no chat “Definir conteúdo de projetos” (`01a17574-9570-7051-a11b-b549be260bdd`). O pedido posterior autorizou a implementação: os cinco projetos estão no catálogo da aplicação. Os registros da preparação documental abaixo preservam seu contexto histórico.
 
-## Implementação — 2026-10-30
+## Atualização — 2026-11-11
+
+O proprietário confirmou que pizzaUP está pronto. O catálogo mantém `published: true` e o GitHub `https://github.com/vulgotaj/pizzaUP`, removendo o `developmentStatus` desse item. Não há demo fornecida; conclusão e disponibilidade de demonstração continuam independentes. A imagem enviada, “Dashboard de Produtos pizzaUP.png”, foi copiada sem edição para o original editorial abaixo e para `/projects/pizzaup-produtos.png`. O novo caminho público evita reutilizar a imagem antiga no cache do otimizador. Alts PT/EN descrevem o painel claro com produtos, categorias e preços. BarberHub permanece em desenvolvimento.
+
+## Implementação — 2026-10-30 (histórico)
 
 O proprietário confirmou neste chat que pizzaUP é integralmente seu e que desenvolve BarberHub com um amigo, tendo atuado no frontend, backend e integrações. Essas contribuições foram registradas em PT/EN, sem atribuir autoria integral do BarberHub. As pendências de contribuição descritas na preparação abaixo estão resolvidas.
 
@@ -17,7 +21,7 @@ A verificação desta implementação está em [projetos-desenvolvimento-verific
 | 1 | `devcontrole` | DevControle | Já presente no catálogo publicado | Não adicionar rótulo novo. |
 | 2 | `fast-motors` | Fast Motors | Já presente no catálogo publicado | Não adicionar rótulo novo. |
 | 3 | `today-movies` | Today Movies | Já presente no catálogo publicado | Não adicionar rótulo novo. |
-| 4 | `pizzaup` | pizzaUP | Incluído no catálogo publicado | Em desenvolvimento / In development |
+| 4 | `pizzaup` | pizzaUP | Publicado com GitHub e imagem atualizada | Concluído, confirmado em 2026-11-11; sem selo de desenvolvimento |
 | 5 | `barberhub` | BarberHub | Incluído no catálogo publicado | Em desenvolvimento / In development |
 
 Manter os cinco na mesma seção e nessa ordem, sem separar os projetos em desenvolvimento em outra coleção. Nenhum destaque adicional foi solicitado. Preservar os IDs existentes e não marcar os três primeiros como “concluídos” por inferência.
@@ -35,19 +39,19 @@ O proprietário forneceu e escolheu todas as imagens abaixo. Os originais editor
 | DevControle | Workspace moderno com Dev Controle.png | [devcontrole.png](design/projects/devcontrole.png) | `public/projects/devcontrole.png` — existente |
 | Fast Motors | Estação Fast Motors em Foco.png | [fast-motors.png](design/projects/fast-motors.png) | `public/projects/fast-motors.png` — existente |
 | Today Movies | Noite de Cinema na Estação de Trabalho.png | [today-movies.png](design/projects/today-movies.png) | `public/projects/today-movies.png` — existente |
-| pizzaUP | Painel pizzaUP em workspace cinematográfico.png | [pizzaup.png](design/projects/pizzaup.png) | `public/projects/pizzaup.png` — copiar na implementação |
+| pizzaUP | Dashboard de Produtos pizzaUP.png | [pizzaup.png](design/projects/pizzaup.png) | `public/projects/pizzaup-produtos.png` — atualizado em 2026-11-11 |
 | BarberHub | Painel BarberHub em Estúdio Moderno.png | [barberhub.png](design/projects/barberhub.png) | `public/projects/barberhub.png` — copiar na implementação |
 
-As três imagens editoriais existentes coincidem por SHA-256 com os arquivos fornecidos. As duas novas cópias foram conferidas em 2026-10-30:
+As três imagens editoriais existentes coincidem por SHA-256 com os arquivos fornecidos. As duas cópias foram conferidas em 2026-10-30; a imagem do pizzaUP foi substituída e conferida novamente em 2026-11-11:
 
 | Arquivo | Dimensões | SHA-256 |
 | --- | --- | --- |
-| `pizzaup.png` | 1672 × 941 | `B38A4A0D8064A296102B42C40B20C03CEA829D3F2DDC9709AC73C2DDCD74A235` |
+| `pizzaup.png` | 1536 × 1024 | `26FD46652BA604E2BC1C5E86D0B27CC322021B338CF4F0F44E7856E341692A19` |
 | `barberhub.png` | 1536 × 1024 | `1938E53F0DEA8583FFB47D647206ACEB6B10913CFB0F0C9E37190F0B94D237F0` |
 
 As imagens são apresentações visuais escolhidas pelo proprietário, não evidência de dados reais, disponibilidade da aplicação ou funcionamento de cada recurso mostrado. Preservar os originais. Aplicar os comportamentos de imagem já existentes na seção; não redesenhar os mockups nesta entrega.
 
-## Conteúdo dos novos projetos
+## Conteúdo preparado em 2026-10-30 (histórico)
 
 ### pizzaUP
 

@@ -12,10 +12,11 @@ for (const locale of ["pt", "en"]) {
         const previous = page.getByRole("button", { name: locale === "pt" ? "Projetos anteriores" : "Previous projects" });
         await expect(page.locator(".project-item")).toHaveCount(5);
         expect(await page.locator(".project-title").allTextContents()).toEqual(["DevControle", "Fast Motors", "Today Movies", "pizzaUP", "BarberHub"]);
-        await expect(page.locator(".project-status")).toHaveCount(2);
+        await expect(page.locator(".project-status")).toHaveCount(1);
         for (const id of ["pizzaup", "barberhub"]) {
           const project = page.locator(`#project-${id}`);
-          await expect(project.locator(".project-status")).toHaveText(locale === "pt" ? "Em desenvolvimento" : "In development");
+          if (id === "barberhub") await expect(project.locator(".project-status")).toHaveText(locale === "pt" ? "Em desenvolvimento" : "In development");
+          else await expect(project.locator(".project-status")).toHaveCount(0);
           await expect(project.locator(".project-preview img")).toHaveAttribute("alt", /.+/);
           await expect(project.getByRole("link", { name: `GitHub: ${id === "pizzaup" ? "pizzaUP" : "BarberHub"} (${locale === "pt" ? "abre em nova aba" : "opens in a new tab"})`, exact: true })).toHaveCount(1);
         }
@@ -130,7 +131,8 @@ for (const id of ["pizzaup", "barberhub"]) {
     await expect(page).toHaveURL(`/en#project-${id}`);
     await expect(page.locator("html")).toHaveAttribute("data-theme", "dark");
     await expect(page.locator(`#project-${id}`)).toBeInViewport();
-    await expect(page.locator(`#project-${id} .project-status`)).toHaveText("In development");
+    if (id === "barberhub") await expect(page.locator(`#project-${id} .project-status`)).toHaveText("In development");
+    else await expect(page.locator(`#project-${id} .project-status`)).toHaveCount(0);
     if (id === "barberhub") await expect(page.getByRole("button", { name: "Next projects" })).toBeDisabled();
     await page.goBack();
     await expect(page).toHaveURL(`/pt#project-${id}`);

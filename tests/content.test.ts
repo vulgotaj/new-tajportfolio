@@ -83,13 +83,14 @@ test("identifica tradução obrigatória ausente ou vazia, sem fallback silencio
 test("estado de desenvolvimento é opcional, validado e independente da demo e publicação", () => {
   for (const locale of ["pt", "en"] as const) {
     const projects = getPublishedProjects(catalog, locale);
-    assert.ok(projects.slice(0, 3).every((project) => project.developmentStatus === undefined));
-    assert.deepEqual(projects.slice(3).map((project) => project.developmentStatus), ["in-development", "in-development"]);
+    assert.ok(projects.slice(0, 4).every((project) => project.developmentStatus === undefined));
+    assert.deepEqual(projects.slice(3).map((project) => project.developmentStatus), [undefined, "in-development"]);
     assert.ok(projects.slice(3).every((project) => project.repository && project.demo === undefined));
     assert.ok(projects.slice(3).every((project) => project.imageAlt && project.description && project.personalContribution));
   }
   const edited = structuredClone(catalog);
   const project = edited.projects[3]!;
+  project.developmentStatus = "in-development";
   project.demo = "https://example.com/preview";
   project.demoStatus = "verified";
   assert.equal(getPublishedProjects(edited, "pt")[3]?.developmentStatus, "in-development");

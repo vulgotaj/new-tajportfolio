@@ -79,10 +79,12 @@ Não redefinir nem solicitar novamente o catálogo. Fonte: chat “Definir conte
 1. DevControle.
 2. Fast Motors.
 3. Today Movies.
-4. pizzaUP — Em desenvolvimento / In development.
+4. pizzaUP — Concluído conforme confirmação do proprietário em 2026-11-11; sem selo de desenvolvimento.
 5. BarberHub — Em desenvolvimento / In development.
 
 Atualização de 2026-10-30: pizzaUP e BarberHub foram implementados após o pedido do proprietário, com estado de desenvolvimento traduzido. Textos PT/EN, tecnologias, alts, limites do estado atual e imagens escolhidas estão no [registro dos cinco projetos](projetos-implementacao.md). Originais preservados em `docs/design/projects/` e cópias idênticas em `public/projects/`. A aplicação publica os cinco itens. O proprietário confirmou autoria integral no pizzaUP e desenvolvimento do BarberHub com um amigo, atuando no frontend, backend e integrações; essas contribuições estão traduzidas no catálogo. Os dois novos não têm demo fornecida.
+
+Atualização de 2026-11-11: o proprietário confirmou a conclusão do pizzaUP e forneceu “Dashboard de Produtos pizzaUP.png”. Removido somente o estado de desenvolvimento desse projeto; GitHub preservado, imagem e descrição alternativa PT/EN atualizadas. Nenhuma demonstração foi fornecida. BarberHub permanece em desenvolvimento.
 
 Os textos PT/EN, tecnologias, referências de repositório e imagens dos três primeiros foram incorporados ao [catálogo editorial dos mockups](design/projects/catalog.json), com cópias das imagens na mesma pasta. Esse catálogo histórico continua com três itens; os dois novos estão documentados no plano acima. O catálogo dos mockups alimenta o estudo visual e não define o formato definitivo de publicação da aplicação.
 

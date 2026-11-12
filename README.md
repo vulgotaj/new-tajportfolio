@@ -13,7 +13,7 @@ Portfólio pessoal de Felipe Tajima, desenvolvedor Full-Stack. Reúne projetos, 
 - **Download do currículo:** PDF em português, identificado como PT-BR também na interface em inglês.
 - **SEO:** metadados por idioma, URLs canônicas, Open Graph, imagens de compartilhamento, sitemap e robots.
 
-O catálogo apresenta **DevControle**, **Fast Motors**, **Today Movies**, **pizzaUP** e **BarberHub**. Os dois últimos estão identificados como projetos em desenvolvimento e possuem link para o GitHub.
+O catálogo apresenta **DevControle**, **Fast Motors**, **Today Movies**, **pizzaUP** e **BarberHub**. O pizzaUP está concluído e possui link para o GitHub; BarberHub segue identificado como projeto em desenvolvimento, também com link para o GitHub.
 
 ## Tecnologias
 

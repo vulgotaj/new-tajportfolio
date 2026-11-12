@@ -15,7 +15,7 @@
 
 Revisão atual: 2026-10-30. O [ponto de retomada](estado-atual.md) consolida as entregas e refinamentos posteriores aos mockups, sem substituir arquitetura, features e ADRs. A decisão anterior de envio no servidor foi substituída, não é uma pendência de implementação.
 
-Implementação de 2026-10-30: a aplicação publica os cinco projetos, na ordem DevControle, Fast Motors, Today Movies, pizzaUP e BarberHub. Os dois últimos exibem estado de desenvolvimento traduzido, imagens aprovadas e GitHub, sem demo. Contribuições confirmadas pelo proprietário no [registro de implementação](projetos-implementacao.md); resultados executados na [verificação](projetos-desenvolvimento-verificacao.md). Os registros anteriores abaixo preservam suas datas originais.
+Implementação de 2026-10-30: a aplicação publica os cinco projetos, na ordem DevControle, Fast Motors, Today Movies, pizzaUP e BarberHub. Na inclusão de 2026-10-30, os dois últimos exibiam estado de desenvolvimento traduzido, imagens aprovadas e GitHub, sem demo. Em 2026-11-11, pizzaUP foi confirmado como concluído, com nova imagem e sem selo; BarberHub continua em desenvolvimento. Contribuições confirmadas pelo proprietário no [registro de implementação](projetos-implementacao.md); resultados executados na [verificação](projetos-desenvolvimento-verificacao.md). Os registros anteriores abaixo preservam suas datas originais.
 
 Progresso mais recente: o proprietário aprovou as entradas transparentes de baixo para cima, com Motion, 900 ms e sem zoom. A abertura permanece em 2,5 s por sessão da aba. O [ponto de retomada atual](estado-atual.md#próxima-retomada) registra os comportamentos a preservar, o alcance exato dos testes e a próxima etapa prevista de revisão editorial PT/EN, ainda não iniciada.
 
